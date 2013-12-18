@@ -24,8 +24,6 @@ $ guard init sheller
 
 ## Contributing
 
-1. Fork it
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request
+Patches are always welcome and thank you to all [project contributors](https://github.com/thegarage/guard-sheller/graphs/contributors)!
+
+Interested in contributing?  Review the project [contribution guidelines](CONTRIBUTING.md) and get started!
