@@ -17,21 +17,10 @@ end
 
 ## Installation
 
-Add this line to your application's Gemfile:
-
-    gem 'guard-sheller'
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install guard-sheller
-
-## Usage
-
-TODO: Write usage instructions here
+```bash
+$ gem install guard-sheller
+$ guard init sheller
+```
 
 ## Contributing
 
