@@ -2,7 +2,7 @@ require 'guard'
 require 'guard/guard'
 
 module Guard
-  class Sheller < Guard
+  class Sheller < Plugin
     def start
       UI.info 'Guard::Sheller is running'
       run_all if options[:all_on_start]
