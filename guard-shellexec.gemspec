@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'guard/sheller/version'
+require 'guard/shellexec/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "guard-sheller"
-  spec.version       = Guard::ShellerVersion::VERSION
+  spec.name          = "guard-shellexec"
+  spec.version       = Guard::ShellexecVersion::VERSION
   spec.authors       = ["Ryan Sonnek"]
   spec.email         = ["ryan@codecrate.com"]
   spec.description   = %q{Guard plugin to execute command line scripts when files change}
