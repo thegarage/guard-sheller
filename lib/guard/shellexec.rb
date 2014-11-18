@@ -2,9 +2,9 @@ require 'guard'
 require 'guard/plugin'
 
 module Guard
-  class Sheller < Plugin
+  class Shellexec < Plugin
     def start
-      UI.info 'Guard::Sheller is running'
+      UI.info 'Guard::Shellexec is running'
       run_all if options[:all_on_start]
     end
 
@@ -19,7 +19,7 @@ module Guard
     private
 
     def run(paths = [])
-      UI.info "Sheller running: #{options[:command]}"
+      UI.info "shellexec running: #{options[:command]}"
       system options[:command]
     end
   end

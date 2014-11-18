@@ -1,3 +1,0 @@
-guard :sheller, command: '/path/to/executable' do
-  watch(%r{^/path/to/watched/files})
-end
